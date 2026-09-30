@@ -23,3 +23,10 @@ By cross-referencing federal regulatory tolerances with empirical pesticide surv
 2. **USDA PDP (Pesticide Data Program):** Empirical sampling and laboratory testing data measuring actual pesticide residues on food products. *(Filtered via CSV download)*
 
 ---
+---
+
+##  Requirements & Setup
+Install the latest version of Python to your machine
+Install the required Python3 libraries:
+numpy
+pandas
