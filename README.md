@@ -29,3 +29,5 @@ Install the latest version of Python to your machine \n
 **Install the required Python3 libraries:**
 1. numpy
 2. pandas
+
+---
