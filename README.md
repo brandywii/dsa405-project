@@ -26,7 +26,7 @@ By cross-referencing federal regulatory tolerances with empirical pesticide surv
 
 ## Requirements & Setup
 Install the latest version of Python to your machine \
-**Install the required Python3 libraries:**
+Install the required Python3 libraries:
 1. numpy
 2. pandas
 
