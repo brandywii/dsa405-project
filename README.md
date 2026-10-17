@@ -33,9 +33,9 @@ Install the required Python3 libraries:
 
 ## How to Use Project File
 *Option 1: Google Colab*
-1. Click on **`DSA405_002_FA26_P2_bdwilki2.ipynb`** Google Collab Notebook in the Main branch
-2. Select the **`Download`** icon at the top right corner,
-3. Go to URL https://colab.research.google.com/ and click on **`Upload Notebook`**
+1. Click on **`DSA405_002_FA26_P2_bdwilki2.ipynb`** Google Colab Notebook in the Main branch
+2. Select the **`Download`** icon at the top right corner
+3. Go to URL https://colab.research.google.com/ and click on **`File`** then **`Upload Notebook`**
 4. Once you upload the notebook and open it you want to select **`Run All`** button or **`Ctrl+F9`** to run all cells in notebook
 
 *Option 2: Open in Visual Studio Code code editor*
