@@ -26,13 +26,22 @@ By cross-referencing federal regulatory tolerances with empirical pesticide surv
 
 ## Requirements & Setup
 Install the latest version of Python to your machine \
+Install Visual Studio Code (VS Code) \
 Install the required Python3 libraries:
 1. numpy
 2. pandas
 
 ## How to Use Project File
+*Option 1: Google Colab*
 1. Click on **`DSA405_002_FA26_P2_bdwilki2.ipynb`** Google Collab Notebook in the Main branch
 2. Select the **`Download`** icon at the top right corner,
 3. Go to URL https://colab.research.google.com/ and click on **`Upload Notebook`**
 4. Once you upload the notebook and open it you want to select **`Run All`** button or **`Ctrl+F9`** to run all cells in notebook
+
+*Option 2: Open in Microsoft Visual Studio Code*
+1. Download VS Code to your machine
+2. Click on **`DSA405_002_FA26_P2_bdwilki2.ipynb`** Google Collab Notebook in the Main branch and save it locally on your machine
+3. Select **`File`** and then select **`Open File or Ctrl+O`**
+4. Select file **`DSA405_002_FA26_P2_bdwilki2.ipynb`**
+5. Once notebook is open, select **`Run All`** button or **`Ctrl+F9`** to run all cells in notebook
 ---
