@@ -36,7 +36,7 @@ Install the required Python3 libraries:
 
 ## How to Use Project Files
 
-All required datasets are loaded automatically when running the notebooks—no manual data downloads, path edits, or API keys are required.
+All required datasets are loaded automatically when running the notebooks. No manual data downloads, path edits, or API keys are required.
 
 ### Option 1: Google Colab
 1. Open the [dsa405-project](https://github.com/brandywii/dsa405-project/tree/main) repository (`main` branch).
