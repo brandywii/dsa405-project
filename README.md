@@ -30,18 +30,26 @@ Install Visual Studio Code (VS Code) \
 Install the required Python3 libraries:
 1. numpy
 2. pandas
+3. matplotlib.pyplot
 
-## How to Use Project File
-*Option 1: Google Colab*
-1. Click on **`DSA405_002_FA26_P2_bdwilki2.ipynb`** Google Colab Notebook in the Main branch
-2. Select the **`Download`** icon at the top right corner
-3. Go to URL https://colab.research.google.com/ and click on **`File`** then **`Upload Notebook`**
-4. Once you upload the notebook and open it you want to select **`Run All`** button or **`Ctrl+F9`** to run all cells in notebook
+---
 
-*Option 2: Open in Visual Studio Code code editor*
-1. Download Visual Studio Code to your machine at https://code.visualstudio.com/
-2. Click on **`DSA405_002_FA26_P2_bdwilki2.ipynb`** Google Collab Notebook in the Main branch and save it locally on your machine
-3. Select **`File`** and then select **`Open File or Ctrl+O`**
-4. Select file **`DSA405_002_FA26_P2_bdwilki2.ipynb`**
-5. Once notebook is open, select **`Run All`** button or **`Ctrl+F9`** to run all cells in notebook
+## How to Use Project Files
+
+All required datasets are loaded automatically when running the notebooks—no manual data downloads, path edits, or API keys are required.
+
+### Option 1: Google Colab
+1. Open the [dsa405-project](https://github.com/brandywii/dsa405-project/tree/main) repository (`main` branch).
+2. Click on **`01_extraction_and_verification.ipynb`** and select the **`Download raw file`** icon in the top-right corner. Repeat for **`02_analysis_and_figures.ipynb`**.
+3. Go to [Google Colab](https://colab.research.google.com/), click **`File`** $\rightarrow$ **`Upload notebook`**, and upload both files.
+4. Open **`01_extraction_and_verification.ipynb`** first and select **`Runtime`** $\rightarrow$ **`Run all`** (or **`Ctrl+F9`**) to automatically load the raw PDP CSV, fetch the eCFR tolerances via REST API, run all 5 `assert` checks, and generate the merged dataset.
+5. Open **`02_analysis_and_figures.ipynb`** and select **`Runtime`** $\rightarrow$ **`Run all`** (or **`Ctrl+F9`**) to reproduce all summary statistics and figures.
+
+### Option 2: Visual Studio Code (Local)
+1. Download and install [Visual Studio Code](https://code.visualstudio.com/) (with the Python and Jupyter extensions enabled).
+2. Clone the repository or download **`01_extraction_and_verification.ipynb`** and **`02_analysis_and_figures.ipynb`** from the `main` branch to your machine.
+3. In VS Code, select **`File`** $\rightarrow$ **`Open File...`** (or **`Ctrl+O`**) and open **`01_extraction_and_verification.ipynb`**.
+4. Select the **`Run All`** button at the top of the notebook editor to execute all cells.
+5. Repeat Steps 3–4 for **`02_analysis_and_figures.ipynb`**.
+
 ---
